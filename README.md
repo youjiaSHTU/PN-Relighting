@@ -32,6 +32,7 @@ The sub-folders are:
 
 In order to run our code, you have to download the necessary model checkpoints. We provide instructions to download checkpoints:
 * Download the checkpoints for normal module, albedo module and relighting module.
+Link: https://drive.google.com/file/d/1HWuxd9dNiJcd7UqlLOlwjQw_GB2E86K1/view?usp=sharing
 * Place the files in the folder: checkpoints/ 
 
 Finally, execute eval/normal_test.py to get surface geometry, eval/albedo_test.py to get albedo map and eval/relit_test.py to get relighting result. We provide examples below for you to try. We also provide eval/gen_demo.py that goes over all combinations and stores the outputs under test_data/relight.
