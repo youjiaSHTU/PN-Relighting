@@ -32,7 +32,8 @@ The sub-folders are:
 
 In order to run our code, you have to download the necessary model checkpoints. We provide instructions to download checkpoints:
 * Download the checkpoints for normal module, albedo module and relighting module.
-Link: https://drive.google.com/file/d/1HWuxd9dNiJcd7UqlLOlwjQw_GB2E86K1/view?usp=sharing
+Link: https://drive.google.com/drive/folders/1WJUOela71MYy9pL0M0lWft-c721jS7lU?usp=sharing
+
 * Place the files in the folder: checkpoints/ 
 
 Finally, execute eval/normal_test.py to get surface geometry, eval/albedo_test.py to get albedo map and eval/relit_test.py to get relighting result. We provide examples below for you to try. We also provide eval/gen_demo.py that goes over all combinations and stores the outputs under test_data/relight.
@@ -44,5 +45,17 @@ You can use the following specifications:
 ## Citation
 If you find our code or paper helps, please consider citing:
 ```
+@article{Wang2023,
+author = {Wang, Youjia and He, Kai and Zhou, Taotao and Yao, Kaixin and Li, Nianyi and Xu, Lan and Yu, Jingyi},
+doi = {10.1007/s11263-022-01730-5},
+issn = {1573-1405},
+journal = {International Journal of Computer Vision},
+number = {4},
+pages = {1002--1021},
+title = {{Free-view Face Relighting Using a Hybrid Parametric Neural Model on a SMALL-OLAT Dataset}},
+url = {https://doi.org/10.1007/s11263-022-01730-5},
+volume = {131},
+year = {2023}
+}
 
 ```
